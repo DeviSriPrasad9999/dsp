@@ -24,7 +24,6 @@ function myfunc(){
     setTimeout(function(){
         preloader.style.display="none";
     },3000);
-    console.log(navigator.appVersion);
     
 }
 
@@ -52,17 +51,15 @@ function sendEmail(){
     let name = document.getElementById("contactname").value;
     let email = document.getElementById("email").value;
     let subject = document.getElementById("subject").value;
-    let message = document.getElementById("textarea").value;
+    let msg = document.getElementById("textarea").value;
     Email.send({
         
-        SecureToken:"d38e503a-f8ad-4f3c-8d2b-4260150f37bb",
-        // Username :"portfoliodsp@gmail.com",
-        // Password : "9603771345@Dsp",
+        SecureToken:"9a422217-1721-4b4d-8615-0aaf35151f36",
         To : 'devisriprasad7989@gmail.com',
-        From :email,
+        From :name,
         Subject : subject,
-        Body : message 
+        Body : msg 
     }).then(
-      message => alert(message)
+      message => alert("message")
     );
 }
