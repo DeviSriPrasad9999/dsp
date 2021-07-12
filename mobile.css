@@ -1,0 +1,301 @@
+/* ======================== Mobile CSS  ==================================*/
+
+.loader-bg{
+    width:100%;
+    height:130vh;
+    z-index: 999999;
+    position:fixed;
+    margin-top:-175px;
+    background:white url("preview.gif") center no-repeat;
+    background-position: 50%;
+    /* justify-content:center;
+    align-items:center; */
+}
+
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background:url("svg.png") no-repeat ;
+    width:75vw;
+    height:200vh;
+    
+}
+    .navbar{
+        background:#B038F4;
+    }
+    .navbar-toggle{
+        margin-right: -5%;
+        padding-top:0px;
+        border:0px;
+        border-radius:3px ;
+    }
+    .navbar-toggle:hover{
+        background:#663399;
+    }
+    
+    .navbar-brand{
+        font-family: 'Pacifico', cursive;
+        font-size:30px;
+        color:white;
+    }
+    .nav-link{
+        font-family: 'Benne', serif;
+        color:white;
+        font-size:20px;
+        font-weight:bold;
+        margin:10px;
+    }
+
+/*=============== Name Div ======================*/
+
+.img{
+    display:none;
+}
+.namediv{
+    margin:40% 5% 1% 5%;
+    width:90vw;
+    height:25%;
+    border-radius: 20px;
+    background:linear-gradient(135deg,#B038F4,rgba(255,255,255,0.9));
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.4);
+    position: relative;
+}
+
+.h3{
+    font-family: 'Benne', serif;
+    font-weight:bold;
+    color:#fff;
+    font-size:25px;
+
+}
+.name{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size:35px;
+    font-weight:bold;
+    color:#fff;
+    position: relative;
+}
+i{
+    color:rgb(233, 44, 10);
+    font-style: normal;
+}
+.btn{
+    width:90px;
+    height:40px;
+    background: #df093e;
+    font-family: 'Benne', serif;
+    font-weight: bold;
+    color:white;
+    font-size:18px;
+    margin: 10px;
+}
+
+.about{
+    margin:10% 5% 1% 5%;
+    width:90vw;
+    height:50%;
+    border-radius: 20px;
+    background:linear-gradient(to bottom left,rgba(176,56,244,0.8),rgba(200,119,246,0.6));
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.4);
+    position: relative;
+    color:#fff;
+    padding-top:20px;
+}
+.myimg{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.heading,p{
+    text-align:center;
+    font-family: 'Benne', serif;
+    font-weight:bold;
+}
+
+.skills{
+    background:linear-gradient(to bottom right,rgba(176,56,244,0.8),rgba(200,119,246,0.6));
+    min-width: 90vw;
+    min-height:38%;
+    border-radius: 20px;
+    padding:4% 0 0 5%;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.4);
+    margin:10% 5% 1% 5%;
+    color:#fff;
+    text-align:center;
+}
+.progress{
+    width: 80vw;
+    height:1.5vh;
+}
+h4{
+    margin-top: 5%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    text-align:start
+}
+h2{
+    font-size:30px;
+    font-family: 'Benne';
+    font-weight: 800;
+    
+}
+.download{
+    min-width: 20vh;
+}
+
+
+.contactme{
+    background:linear-gradient(to top left,rgba(176,56,244,0.8),rgba(200,119,246,0.8));
+    min-width: 90vw;
+    min-height:65vh;
+    border-radius: 20px;
+    padding:4% 0 0 5%;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.4);
+    margin:2vh 2% 5% 5%;
+    color:#fff;
+    
+}
+.contactmehead{ 
+    text-align:center;
+    font-family: 'Benne', serif;
+    font-weight:900;
+}
+.caption{
+    text-align:center;
+    font-family: 'Benne', serif;
+    margin-top: -5%;
+    font-weight: bold;
+    color:rgb(245, 26, 26);
+}
+.info{
+    color:black;
+}
+.getintouch{
+    
+    font-family: 'Benne', serif;
+    font-weight:bold;
+}
+
+.bi-person-fill{
+    width:10vw;
+    height:10vw;
+    margin-top: 15px;
+    margin-left:0%;
+    position:absolute;
+}
+.a{
+    font-size:3vh;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:20%;
+}
+ .b{
+    font-size:2vh;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:20%;
+}
+.bi-geo-alt-fill{
+    width:10vw;
+    height:10vw;
+    margin-top: 20px;
+    margin-left:0%;
+    position:absolute;
+}
+
+.c{
+    font-size:3vh;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:20%;
+    margin-top: 7%;
+}
+
+.bi-envelope-fill{
+    width:10vw;
+    height:10vw;
+    margin-top: 20px;
+    margin-left:0%;
+    position:absolute;
+}
+.d{
+    font-size:3vh;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:20%;
+    margin-top: 7%;
+} 
+
+form{
+    margin-top:15%;
+    width:90%;
+    position: relative;
+    
+    
+}
+.msgme{
+    margin-left:2%;
+    margin-bottom: 3%;
+    font-family: 'Open Sans','sans-serif';
+}
+
+#contactname{
+    
+    margin-bottom:2%;
+}
+.row1{
+    margin-left: 1%;
+    
+}
+.row2{
+    margin-top: -3%;
+    margin-left:1%;
+    
+}
+.send{
+    background: #df093e;
+    font-family: 'Benne', serif;
+    margin-left:10%;
+    margin-top:0px;
+    min-width:20vh;
+}
+
+.smedia{
+    width:90vw;
+    height:200px;
+    font-size: 4vw;
+    margin-left:10%;
+    display:flex;
+    gap:6%;
+}
+h6{
+    font-size:4vw;
+}
+.insta{
+    width: 7vw;
+    height:7vw;
+    background-color: #E4405F;
+    border-radius:50% ;
+    box-shadow: 0px 5px 8px 0px  rgba(0,0,0,0.5);
+    text-align:center;
+}
+
+.fa-instagram{
+    color:white;
+}
+
+.linkedin{
+    width: 7vw;
+    height:7vw;
+    background-color: #0A66C2;
+    border-radius:50% ;
+    box-shadow: 0px 5px 8px 0px  rgba(0,0,0,0.5);
+    text-align:center;
+}
+.fa-linkedin-in{
+    color:white;
+}
+
+.linkedin:hover,.insta:hover{
+    transform:translateY(-15%) ;
+    transition: 0.5s;
+}
+

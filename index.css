@@ -1,0 +1,395 @@
+
+
+body{
+    background:url("svg.png") no-repeat ;
+    width:75vw;
+    height:200vh;
+    
+}
+
+
+/*============= NavBar ==================*/
+@media screen and (min-width:992px){
+.navbar-toggle{
+    display:none;
+}
+}
+.navbar{
+    background:#B038F4;
+}
+.navbar-toggle{
+    margin-right: -5%;
+    padding-top:0px;
+    border:0px;
+    border-radius:3px ;
+}
+.navbar-toggle:hover{
+    background:#663399;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size:30px;
+    color:white;
+}
+.nav-link{
+    font-family: 'Benne', serif;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    margin:10px;
+}
+
+/*=============  Name Div  ====================*/
+
+.namediv{
+    /* background:transparent; */
+    background:linear-gradient(to bottom right,#B038F4,white);
+    min-width: 80vw;
+    min-height:400px;
+    border-radius: 20px;
+    padding:8% 0 0 5%;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.4);
+    position: relative;
+}
+
+.innerdiv{
+    margin-top:-8%;
+}
+
+.name{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size:60px;
+    font-weight:bold;
+    color:#fff;
+    position: relative;
+}
+.h3{
+    position: relative;
+    margin:0px 0 0 10px;
+    font-family: 'Benne', serif;
+    font-size:30px;
+    font-weight:bold;
+    color:#fff;
+}
+i{
+    color:rgb(233, 44, 10);
+    font-style: normal;
+}
+
+.btn{
+    width:90px;
+    height:40px;
+    background: #df093e;
+    font-family: 'Benne', serif;
+    font-weight: bold;
+    color:white;
+    font-size:18px;
+    margin: 10px;
+}
+.img{
+    
+    margin: -7vw 5% 0 0;
+    
+}
+.img-responsive{
+    width:300px;
+    height:280px;
+    border-radius:10px;
+    
+}
+
+
+@media screen and (min-width:993px) {
+    .namediv,.about,.skills,.download,.contactme{
+        margin:15% 15% 0 10%;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .namediv{
+        max-width:80%;
+        margin:15% 10% 0 10%;
+        padding:5% ;
+    }
+    .name{
+        font-size:40px;
+    }
+    .h3{
+        font-size:25px;
+    }
+    .about{
+        max-width:80%;
+        margin:15% 10% 0 10%;
+        padding:5% ;
+        padding-left:5px;
+    }
+    .aboutme{
+        width:50vw;
+    }
+    .myimg{
+        min-width:100%;
+        
+    }
+    .skills,.contactme{
+        max-width:80%;
+        margin:15% 10% 0 10%;
+        padding:5% ;
+        padding-left:5px;
+    }
+    .right{
+        margin:-193px 20% 0 30px;
+    }
+    .navbar-toggle{
+        margin-right: 3%;
+    }
+    .download{
+        margin:5px 10% 0 10%; 
+        min-width:18vw;
+    }
+    .caption{
+        margin-bottom: -15%;
+    }
+    .send{
+        width:22vw;
+        
+    }
+
+}
+
+@media screen and (max-width:905px) and (min-width:769px) {
+    .img{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-height:700px) {
+    .contactme{
+        height: 80vh;
+    }
+}
+
+/* ===============  About  =============================== */
+
+.about{
+    background:linear-gradient(to bottom left,rgba(176,56,244,0.8),rgba(200,119,246,0.6));
+    min-width: 80vw;
+    min-height:350px;
+    border-radius: 20px;
+    padding:4% 0 0 5%;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.4);
+    margin-top:5vh;
+    color:#fff;
+    display:inline-flex;
+    margin-bottom: 3%;
+}
+.heading,p{
+    font-family: 'Benne', serif;
+    font-weight:bold;
+}
+
+.myimg{
+    width:60%;
+    margin-bottom: 3%;
+    border-radius: 50%;
+}
+
+.aboutme{
+    
+    width:100vw;
+    padding:5% 5% 0 0px;
+    font-weight: bold;
+    margin: 0 7% 2% 0 ;
+}
+p{
+    color:white;
+}
+
+/* ===========================  Skills  =================== */
+.skills{
+    background:linear-gradient(to bottom right,rgba(176,56,244,0.8),rgba(200,119,246,0.6));
+    min-width: 80vw;
+    min-height:350px;
+    border-radius: 20px;
+    padding:4% 0 0 5%;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.4);
+    margin-top:2vh;
+    color:#fff;
+    margin-bottom: 1%;
+}
+h4{
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 10px;
+}
+
+h2{
+    font-size:40px;
+    margin-left: 20px;
+    font-family: 'Benne';
+}
+.progress{
+    max-width: 20vw;
+    height:1.5vh;
+    
+}
+.right{
+    width:30vw;
+    float: right;
+    margin:-233px 25% 0 0px;
+}
+
+.download{
+    margin-bottom:4% ;
+    margin-top:2px;
+    border-radius: 5px;
+    width:15vw;
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+/* ===============  Contact Me  ============================= */
+
+.contactme{
+    background:linear-gradient(to top left,rgba(176,56,244,0.8),rgba(200,119,246,0.8));
+    min-width: 80vw;
+    min-height:65vh;
+    border-radius: 20px;
+    padding:4% 0 0 5%;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.4);
+    margin-top:2vh;
+    color:#fff;
+    margin-bottom: 5%;
+    /* text-align: center; */
+}
+.contactmehead{
+    font-family: 'Benne', serif;
+    font-weight:900;
+    margin-left:40%;
+}
+.caption{
+    font-family: 'Benne', serif;
+    margin:-15px 0 20px 40%;
+    font-weight: bold;
+    color:rgb(245, 26, 26);
+}
+.info{
+    color:black;
+}
+.getintouch{
+    
+    font-family: 'Benne', serif;
+    font-weight:bold;
+}
+
+.bi-person-fill{
+    margin-top: 20px;
+    position:absolute;
+}
+.a{
+    font-size:2vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:5%;
+}
+.b{
+    font-size:1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:5%;
+}
+.bi-geo-alt-fill{
+    margin: 3% 0 0 0;
+    position: absolute;
+}
+
+.c{
+    font-size:2vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:5%;
+    margin-top: 3%;
+}
+
+.bi-envelope-fill{
+    margin: 3% 0 0 0;
+    position: absolute;
+}
+.d{
+    font-size:2vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:5%;
+    margin-top: 3%;
+}
+form{
+    float:right;
+    width:60%;
+    position: relative;
+    margin: -22vw 0% 2% 2%;
+    
+}
+.msgme{
+    margin-left:2%;
+    margin-bottom: 3%;
+    font-family: 'Open Sans','sans-serif';
+}
+
+#contactname{
+    margin-right: 1%;
+}
+.row1{
+    display: flex;
+    margin:1%;
+}
+.row2{
+    margin-left:1%;
+    margin-bottom: 1%;
+}
+.send{
+    background: #df093e;
+    font-family: 'Benne', serif;
+    margin-left:4%;
+    min-width:15vw;
+}
+
+.smedia{
+    width:90vw;
+    height:200px;
+    font-size: 3.2vw;
+    margin-left:10%;
+    display:flex;
+    gap:6%;
+}
+h6{
+    font-size:1.5vw;
+}
+.insta{
+    width: 5vw;
+    height:5vw;
+    background-color: #E4405F;
+    border-radius:50% ;
+    box-shadow: 0px 5px 8px 0px  rgba(0,0,0,0.5);
+    text-align:center;
+}
+
+.fa-instagram{
+    color:white;
+}
+
+.linkedin{
+    width: 5vw;
+    height:5vw;
+    background-color: #0A66C2;
+    border-radius:50% ;
+    box-shadow: 0px 5px 8px 0px  rgba(0,0,0,0.5);
+    text-align:center;
+}
+
+
+.fa-linkedin-in{
+    color:white;
+}
+
+.linkedin:hover,.insta:hover{
+    transform:translateY(-15%) ;
+    transition: 0.5s;
+}
+
